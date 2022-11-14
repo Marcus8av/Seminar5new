@@ -1,7 +1,7 @@
 ﻿/*Задайте массив вещественных чисел. 
 Найдите разницу между максимальным и минимальным элементов массива.*/
 
-System.Console.WriteLine("Введите количество одномерного массива: ");
+System.Console.WriteLine("Введите массив: ");
 Random random = new Random();
 int a = Convert.ToInt32(Console.ReadLine());
 double [] array = new double [a];
